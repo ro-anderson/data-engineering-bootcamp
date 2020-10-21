@@ -1,0 +1,46 @@
+Description: Cria um cluster redshift e recursos de suporte
+
+Resources:
+  Type: AWS::Redshift::Cluster
+  Properties:
+  AllowVersionUpgrade: True
+  AutomatedSnapshotRetentionPeriod: 
+  AvailabilityZone: String
+  ClusterIdentifier: String
+  ClusterParameterGroupName: String
+  ClusterSecurityGroups: 
+    - String
+  ClusterSubnetGroupName: String
+  ClusterType: String
+  ClusterVersion: String
+  DBName: String
+  ElasticIp: String
+  Encrypted: Boolean
+  HsmClientCertificateIdentifier: String
+  HsmConfigurationIdentifier: String
+  IamRoles: 
+    - String
+  KmsKeyId: String
+  LoggingProperties: 
+    LoggingProperties
+  MasterUsername: String
+  MasterUserPassword: String
+  NodeType: String
+  NumberOfNodes: Integer
+  OwnerAccount: String
+  Port: Integer
+  PreferredMaintenanceWindow: String
+  PubliclyAccessible: Boolean
+  SnapshotClusterIdentifier: String
+  SnapshotIdentifier: String
+  Tags: 
+    - Tag
+  VpcSecurityGroupIds: 
+    - Stringt: Delete
+		DeletionPolict: Delete
+		DeletionPolicy: Delete
+		DeletionPolict: Delete
+		DeletionPolicy: Delete
+		oeletionPolicy: Delete
+		DeletionPolict: Delete
+		DeletionPolicy: Delete

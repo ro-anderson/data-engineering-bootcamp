@@ -1,0 +1,113 @@
+AWS
+
+- senha mto segura
+- ative a autenticação multifator
+alarme de faturamento
+
+SEMPRE SEMPRE SEMPRE delete imediatamente todos os recursos que vc criou
+
+Se for resolver os exs espere fastar ~$10 com serviços não disponíveis no free-tier
+
+pq infro como código?
+- Velocidade, simplicidade e replicabilidade
+- Consistência na config, menor chance de erro humano
+- Minimização de riscos, controle de versão
+- Aumento na eficiência no desenvolvimento de software
+- Economia 
+
+oq é aws cloudformation?
+ling comim para modelar e provisionar recurso de aplicativos daaws
+
+pq nao terraform?
+Possibilita deploy em diferentes nuvens
+Cloud formation fica f-acil terraform
+
+
+code infra - s3
+
+Conceitos básicos VCloud FOrmation
+
+modelos e pilhas
+templates e stacks
+
+template = code
+
+stacks  = recursos
+
+stacks
+cria template manda pro cloud formation e gera os recursos
+
+postgrels -> melhor se o banco é menor
+
+S3 com dados em parquet = mais barato
+
+de início o postgrels é melhor
+depois redshift
+
+bom: redshir pequeno com dados tratados
+aumenta a performance de query
+
+criar bucket no s3
+
+criar o template
+
+criar yml
+
+yml é um subgrupo de json
+
+hierarquia se da pela identação
+
+json
+{
+  "c":"dsdsd",
+    "lista2":[]lista": [1, 2, 3, 4]
+}
+
+definir tipo e propriedades
+
+armazenamento de arquivos da aws: Bucket
+
+armazenamento barato
+
+1 aplicação por stack
+
+# ECXLUIR STACK ##
+cloud foration
+deletar os arquivos antes e depois
+apagar o bucket
+
+Criar um banco de dados
+no reshift
+
+até petabyte de dados
+
+fazer consultas
+
+criar template
+deply
+testar acessdo
+bloquear
+
+VPC: Nuvem virtual
+tem q dar acesso a internet
+
+OQ é IAM?
+
+controlar users
+pessoa ou app q interage com a aws
+
+role:
+conjubnto de permissões que
+vai para apps ou seviços, como EC2
+
+POlicy:
+acesso por pessoa
+MÍNIMA PERMISSÃO
+
+Boas  práticas:
+- conceder privilégio mínimo
+- Use grupos para atribuir permissões de users
+- Usar roles (fçs) para delegar
+permissões
+
+user: admin- 

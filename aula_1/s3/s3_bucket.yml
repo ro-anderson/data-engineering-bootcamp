@@ -1,0 +1,11 @@
+Resources:
+
+  MeuPrimeiroBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: my-first-bucket-didier-2020-10-20
+      BucketEncryption:
+        ServerSideEncryptionConfiguration:
+            - ServerSideEncryptionByDefault:
+             SSEAlgorithm: AES256
+
