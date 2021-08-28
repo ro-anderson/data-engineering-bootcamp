@@ -1,0 +1,101 @@
+class 0 ~~
+
+criar BUDGET (VOLTAR NESSE VÍDE DEPOIS, PRECISA DE 24H)
+
+criar user no IAM
+
+não rodar como root nunca (só quando totalmente necessário)
+
+AWS CloudFormation pra copiar dados de um user para outro.
+
+serviços para profissionais de dados:
+
+S3 - simple storage service
+
+qualquer tipo de dado e qualquer arquivo 
+
+formato parqwuet consegue ler.
+
+cada bucket é um local pra vc guardar os seus dados.
+
+Amazon RDS (Relational Database Servicee) totalmente independente do S3
+
+serviço de bando de dados relacionais na nuvem.
+
+- INSERT
+- DELETES
+- UPDATES
+
+instãncia - (EC2, por exemplo)
+
+Amazon redshift (banco de dados voltado para analytics )
+
+- pra vc fazer data warehousing
+- postgress
+- otimizado para SELECTS
+
+- SELECT
+
+ele é um cluster
+
+distribuir em várias máquinas.
+escalabilidade horizontl.
+
+Amazon DynamoDB
+
+banco de dados noSQL
+
+saber como vai fazer a query mto bem.
+
+20 mi de solicitações por segundo.
+
+para aplicações ele é bem útil.
+
+para ingerir dados
+de um nosql para outro sql onde o pessoal de analytics vai usar.
+
+
+
+INGESTÃO, PROCESSAMENTO E ANÁLISE
+
+Amazon Elastic Compute Cloud (EC2)
+
+serviço de servidores virtuais. Facilita a computação em nuvem
+na escala da web para os desenvolvedores.
+
+
+Amazon Database Migration Service
+
+conectar dados para o S3
+
+replica quase em tempo real;
+
+utilizar pra migrar do RDS para uma saída
+
+define a fonte e manda para o destino.
+
+
+AWS Lambda
+
+computação sem servidor.
+
+
+serviço de computação sem servidor que permite executar
+códiho sem provisionar ou gerenciar servidores.
+
+não precisa de administração.
+
+basta fazer upload do código como um arquivo ZIP
+ou imagem de contêiner, e o lambda aloca recursos
+de maneira automática.
+
+
+
+caso de uso:
+ou coisas onde tem uso exporádico.
+5s ao dia;
+
+nao faz sentido salvar um servidor e usar 
+apenas pelo running timming.
+
+
