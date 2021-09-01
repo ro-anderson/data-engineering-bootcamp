@@ -98,4 +98,72 @@ ou coisas onde tem uso exporádico.
 nao faz sentido salvar um servidor e usar 
 apenas pelo running timming.
 
+lambda sns sqs
+how to use SNS and SQS to distribute and throttle
+Events
+pesquisear
+
+- AMAZON EMR
+
+vc faria várias EC2 e conversaria entre elas
+
+EMR permite vc gerenciar tudo isso:
+
+Plataforma de big data para processar granders
+quantidades de código aberto como APache Sparrk,
+Hive, HBase, Flink, Hudi,  e Presto.
+
+facilita a config, operação e escala de seus grandes
+ambientes de dados.
+
+cria todas do tamanho e gerenciar.
+possível rodar o pyspark por exemplo.
+
+- AWS GLUE JOBS
+
+integração de dados sem servidor que facilita descobrir preparar
+e combinar dados para análise.
+não precisa subir o cluster,
+como o lambda
+
+- Amazon Kineses Data Streams
+como o apache kafka
+ingestao de dados em tempo rea
+
+- Amazon Kineses Data Firehose
+carregar de forma confiável dados de straming em data lakes,
+datastores e serviços de análise. Pode criar pacotes de dados.
+
+equivalente a kafka connect
+
+
+Amazon glue data catalog
+
+criar base de dados e tabelas.
+apenas para onde os dados são apontados.
+
+então é um metastore - mostra i onde tá
+ŕa outros sistemas usarem com qualidade.
+
+
+data quality
+
+amazon Macie
+detecção de dados sensíveis
+
+- aws lakeformation
+
+
+AMUNDSEN
+
+grat expectations para tipo dos dados.
+
+pode rodar isso com uma lambda pra garantir a qualidade
+dos dados.
+
+amazon athena
+
+
+
+
 
